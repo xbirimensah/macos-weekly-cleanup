@@ -1,0 +1,20 @@
+# weekly-cleanup settings. Copy to ~/.config/weekly-cleanup/config and edit.
+# Plain KEY=value lines. The file is parsed, never executed; unknown keys stop
+# the run with an error so a typo cannot silently change what gets deleted.
+
+# Where Unzip app extractions are archived before the local copy is removed.
+# Usually a folder on an external drive. Empty or missing = the step is off.
+# ARCHIVE_DIR=/Volumes/MyDrive/Archives
+
+# Size and age limits (whole numbers).
+# TELEGRAM_LIMIT_GB=10
+# CACHE_AGE_DAYS=7
+# TRASH_AGE_DAYS=7
+# NEXT_AGE_DAYS=7
+# CLAUDE_VM_AGE_DAYS=14
+# UNZIP_AGE_DAYS=2
+# NOTIFY_BELOW_GB=20
+
+# Steps to skip, space-separated.
+# Steps: clones telegram unzip caches trash apps next packages
+# SKIP_STEPS=telegram next
